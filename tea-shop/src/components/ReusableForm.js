@@ -19,7 +19,7 @@ function ReusableForm(props) {
           placeholder='Price' />
         <input
           type='text'
-          name='Type'
+          name='type'
           placeholder='Type of Tea' />      
         <button type='submit'>{props.buttonText}</button>
       </form>
