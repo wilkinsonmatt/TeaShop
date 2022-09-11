@@ -10,7 +10,7 @@ function TeaList(props){
       {props.teaList.map((tea) =>
         <Tea
           whenTeaClicked = {props.onTeaSelection}
-          names={tea.names}
+          name={tea.name}
           location={tea.location}
           issue={tea.issue}
           id={tea.id}

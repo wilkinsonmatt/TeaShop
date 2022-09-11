@@ -5,8 +5,8 @@ function Tea(props){
   return (
     <React.Fragment>
       <div onClick = {() => props.whenTeaClicked(props.id)}>
-        <h3>{props.location} - {props.names}</h3>
-        <p><em>{props.issue}</em></p>
+        <h3>{props.origin} - {props.name}</h3>
+        <p><em>{props.price}</em></p>
         <hr/>
       </div>
     </React.Fragment>
@@ -14,9 +14,10 @@ function Tea(props){
 }
 
 Tea.propTypes = {
-  names: PropTypes.string,
-  location: PropTypes.string, 
-  issue: PropTypes.string,
+  name: PropTypes.string,
+  origin: PropTypes.string, 
+  price: PropTypes.string,
+  type: PropTypes.string,
   id: PropTypes.string,
   whenTeaClicked: PropTypes.func
 };

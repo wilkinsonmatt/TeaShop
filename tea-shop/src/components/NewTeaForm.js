@@ -8,18 +8,18 @@ function NewTeaForm(props){
   function handleNewTeaFormSubmission(event) {
     event.preventDefault();
     props.onNewTeaCreation({
-      names: event.target.names.value,
-      location: event.target.location.value,
-      issue: event.target.issue.value,
+      name: event.target.name.value,
+      origin: event.target.origin.value,
+      price: event.target.price.value,
       id: v4()
-    });
+    }); 
   }
   
   return (
     <React.Fragment>
       <ReusableForm
         formSubmissionHandler={handleNewTeaFormSubmission}
-        buttonText="Help!" />
+        buttonText="Add Tea to list" />
     </React.Fragment>
   );
 }
