@@ -3,6 +3,7 @@ import NewTeaForm from './NewTeaForm';
 import TeaList from './TeaList';
 import TeaDetail from './TeaDetail';
 
+
 class TeaControl extends React.Component {
 
   constructor(props) {
@@ -23,9 +24,9 @@ class TeaControl extends React.Component {
     } else {
       this.setState(prevState => ({
         formVisibleOnPage: !prevState.formVisibleOnPage,
-    }));
+      }));
+    }
   }
-}
 
   handleAddingNewTeaToList = (newTea) => {
     const newMainTeaList = this.state.mainTeaList.concat(newTea);

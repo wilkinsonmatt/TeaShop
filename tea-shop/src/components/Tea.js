@@ -17,7 +17,8 @@ Tea.propTypes = {
   name: PropTypes.string,
   origin: PropTypes.string, 
   price: PropTypes.string,
-  type: PropTypes.string,
+  typeOfTea: PropTypes.string,
+  stock: PropTypes.string,
   id: PropTypes.string,
   whenTeaClicked: PropTypes.func
 };
