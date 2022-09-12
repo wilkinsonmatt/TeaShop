@@ -11,8 +11,9 @@ function TeaList(props){
         <Tea
           whenTeaClicked = {props.onTeaSelection}
           name={tea.name}
-          location={tea.location}
-          issue={tea.issue}
+          origin={tea.origin}
+          price={tea.price}
+          type={tea.type}
           id={tea.id}
           key={tea.id}/>
       )}
