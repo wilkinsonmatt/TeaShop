@@ -4,7 +4,7 @@
 
 ![component tree](diagram.jpg)
 
-#### A simple React app for a tea shop. You can add diffrent teas amd buy teas. 
+#### A simple React app for a Tea shop. You can add different Teas amd buy teas by the ounce. 
 
 ## Github links
 
