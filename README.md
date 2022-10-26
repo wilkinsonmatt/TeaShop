@@ -17,7 +17,6 @@ https://github.com/wilkinsonmatt/TeaShop.git
 * HTML/CSS
 * Markdown
 
-
 ## Description
 
 You can add different Teas with a description, price, and the quantity to then be sold and bought until it's un-stocked. You can also add new Teas. 
