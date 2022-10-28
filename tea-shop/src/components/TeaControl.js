@@ -16,7 +16,6 @@ class TeaControl extends React.Component {
     };
   }
 
-
   handleClick = () => {
     if (this.state.selectedTea != null) {
       this.setState({
