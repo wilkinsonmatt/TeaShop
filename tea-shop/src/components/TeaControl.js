@@ -91,7 +91,6 @@ class TeaControl extends React.Component {
       </React.Fragment>
     );
   }
-
 }
 
 export default TeaControl;
