@@ -94,4 +94,3 @@ class TeaControl extends React.Component {
 }
 
 export default TeaControl;
-
